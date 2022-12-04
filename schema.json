@@ -1,0 +1,36 @@
+{
+  "type": "component",
+  "metadata": {},
+  "schema": {
+    "name": "bb-plugin-Stepper",
+    "friendlyName": "Stepper",
+    "description": "A Stepper Component for Budibase",
+    "styles": [ "padding", "background", "size", "border", "shadow" ],
+    "icon": "Text",
+    "settings": [
+      {
+        "type": "text",
+        "key": "noSteps",
+        "label": "Steps",
+        "defaultValue": 4
+      }, 
+      {
+        "type": "text",
+        "key": "activeStep",
+        "label": "Active Step",
+        "defaultValue": 2
+      },
+      {
+        "type": "select",
+        "key": "variant",
+        "label": "Variant",
+        "options": [
+          { "label": "Standard", "value": "standard" },
+          { "label": "With Label", "value": "withlabel" },
+          { "label": "With Tooltip", "value": "withtooltip"}
+        ],
+        "defaultValue": "standard"
+      }
+    ]
+  }
+}
